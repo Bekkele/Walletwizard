@@ -1,0 +1,96 @@
+.hero{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  a{
+    text-decoration: none;
+  }
+  .text{
+    display: flex;
+    flex-direction:column;
+    padding: 24px;
+    gap: 45px;
+    width:60%;
+
+      h1{
+        font-size: 42px;
+        color: #DDDDDD;
+        
+      }
+      h2{
+        font-size: 24px;
+      }
+      .learnMore{
+        width: 120px;
+        // https://codepen.io/t_afif/pen/poawLeQ
+        --b: 0.1em;   /* the thickness of the line */
+        --c: #EDD804; /* the color */
+        
+        color: #0000;
+        padding-block: var(--b);
+        background: 
+          linear-gradient(var(--c) 50%,rgb(255, 255, 255) 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+          linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+        -webkit-background-clip: text,padding-box;
+                background-clip: text,padding-box;
+        transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+      }
+    
+      .learnMore:hover {
+        --_p: 100%;
+        --_s: .3s;
+        cursor: pointer;
+        width: 120px;
+
+      }
+  }
+
+
+.graphic{
+  position: relative;
+  width:500px;
+  height: 500px;
+  // overflow: hidden;
+&::after{
+  content: "";
+  width: 80%;
+  aspect-ratio: 1;
+  background: rgba(255, 255, 255,0.6 );
+  z-index: -1;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  filter:blur(50px);
+}
+  .wallet{
+    position: absolute;
+    bottom: 0;
+    background:#C9C9C9;
+    width: 100%;
+    height: 50%;
+    border-radius: 45px 45px 0 0;
+    z-index:10;
+}
+.cards{
+  display: flex; 
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  gap:20px;
+padding-bottom: 60px;
+  
+img{
+    height: 250px;
+object-fit: contain;
+position: sticky;
+top:0;
+border-radius:20px;
+// box-shadow: 0 -4px #616161;
+ } 
+
+}
+}
+}

@@ -1,0 +1,28 @@
+.button{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+color: #ffffff;
+border-radius: 12px;
+outline: none;
+border: none;
+width: max-content;
+cursor: pointer;
+z-index: 5;
+
+&.primary{
+  background: #245EC2;
+}
+&.secondary{
+  background:#DDDDDD;
+    .icon{
+      color: black;
+    }
+}
+&.small{
+  padding:  8px  16px;
+}
+&.large{
+  padding:   12px 20px;
+}
+}
