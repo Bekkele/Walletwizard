@@ -2,7 +2,7 @@
   display: flex;
   gap: 4px;
   align-items: center;
-color: #ffffff;
+// color: #ffffff;
 border-radius: 12px;
 outline: none;
 border: none;
@@ -12,6 +12,9 @@ z-index: 5;
 
 &.primary{
   background: #245EC2;
+     .icon{
+      color: white;
+    }
 }
 &.secondary{
   background:#DDDDDD;
