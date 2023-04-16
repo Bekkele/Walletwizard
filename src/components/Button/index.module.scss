@@ -1,31 +1,29 @@
-.button{
+.button {
   display: flex;
   gap: 4px;
   align-items: center;
-// color: #ffffff;
-border-radius: 12px;
-outline: none;
-border: none;
-width: max-content;
-cursor: pointer;
-z-index: 5;
+  color: #ffffff;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  width: max-content;
+  cursor: pointer;
+  z-index: 5;
 
-&.primary{
-  background: #245EC2;
-     .icon{
+  &.primary {
+    background: #245ec2;
+    .icon {
       color: white;
     }
-}
-&.secondary{
-  background:#DDDDDD;
-    .icon{
-      color: black;
-    }
-}
-&.small{
-  padding:  8px  16px;
-}
-&.large{
-  padding:   12px 20px;
-}
+  }
+  &.secondary {
+    background: #dddddd;
+    color: black;
+  }
+  &.small {
+    padding: 8px 16px;
+  }
+  &.large {
+    padding: 12px 20px;
+  }
 }
