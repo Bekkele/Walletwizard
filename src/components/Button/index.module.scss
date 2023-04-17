@@ -16,9 +16,17 @@
       color: white;
     }
   }
+   &.primary:hover {
+    background: #1b4690;
+    outline: 2px solid #245ec2;
+  }
   &.secondary {
     background: #dddddd;
     color: black;
+  }
+   &.secondary:hover {
+    background: #838080;
+    outline: 2px solid #dddddd;
   }
   &.small {
     padding: 8px 16px;
