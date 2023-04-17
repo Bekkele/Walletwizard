@@ -4,7 +4,7 @@ import styles from "./index.module.scss";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <a href="https://s21pi8.csb.app/">
+      <a href="https://xx0zkr-3000.csb.app/">
         <img src="/walletwizardlogo2.png" />
       </a>
       <nav>
