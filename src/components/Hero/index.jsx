@@ -20,7 +20,7 @@ const Hero = () => {
           <Button text="Download App" icon="apple" size="large" />
         </a>
         <div className={styles.learnMore} onClick={handleLearnMoreClick}>
-          learn more <img className={styles.arrow} src="/arrow.png" />
+          <p>learn more</p> <img className={styles.arrow} src="/arrow.png" />
         </div>
       </div>
       <div className={styles.graphic}>
