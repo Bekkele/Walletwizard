@@ -1,6 +1,6 @@
 # Walletwizard by Bekkele Hamilton
-Honours Bachelor of Interaction Design
-Sheridan College
+Honours Bachelor of Interaction Design,
+Sheridan College,
 Thesis 2023
 
 
