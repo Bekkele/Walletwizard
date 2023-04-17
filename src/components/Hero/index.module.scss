@@ -21,6 +21,9 @@
         font-size: 24px;
       }
       .learnMore{
+         display: flex;
+      gap: 10px;
+      align-items: center;
         width: 120px;
         // https://codepen.io/t_afif/pen/poawLeQ
         --b: 0.1em;   /* the thickness of the line */
